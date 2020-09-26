@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "bashecommerce_jwtPrivateKey",
+  "db": "bashecommerce_db"
+}

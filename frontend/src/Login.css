@@ -1,0 +1,82 @@
+.form {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  border-bottom: 0;
+  width: 100%;
+  border-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 300px;
+  padding: 2rem;
+  border: 0.1rem #f0f0f0 solid;
+  border-radius: 0.5rem;
+  list-style-type: none;
+}
+
+.form-container li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+input {
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 0.4rem;
+}
+.button-primary {
+  background: #f0c14b !important;
+  border-radius: 3px !important;
+  width: 100% !important;
+  height: 40px !important;
+  margin-top: 10px !important;
+  border-color: #a88734 #9c7e31 #846a29 !important;
+  color: #111 !important;
+  cursor: pointer !important;
+  outline: none !important;
+}
+.button-secondary {
+  background: #d9d9d9;
+  border-radius: 3px;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  cursor: pointer;
+  outline: none;
+}
+
+.button.secondary {
+  background-color: #f0f0f0;
+}
+.text-center {
+  text-align: center;
+  text-decoration: none;
+}
+.button {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: 0.1rem #808080 solid;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  padding: 1rem;
+  border: 0.1rem #404040 solid;
+}
+
+.text-tag {
+  font-size: 15px;
+  font-weight: bold;
+}

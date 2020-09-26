@@ -1,0 +1,123 @@
+.products-main {
+  display: flex;
+  background-color: white;
+  height: 600px;
+}
+.product-detail-sub {
+  display: flex;
+}
+
+.product-detail-image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+.product-detail-rating {
+  display: flex;
+}
+.product-info {
+  padding-left: 20px;
+}
+.product-td {
+  padding: 1rem;
+  font-size: 15px;
+}
+.product-info > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  color: #111;
+  border-radius: 2px;
+}
+.product-detail-title {
+  font-size: 17px;
+  font-weight: 800;
+}
+.checkout-ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.details-action {
+  flex: 1 1 30rem;
+  margin: 10px;
+}
+.detail-product-link {
+  text-decoration: none;
+}
+.details-info ul,
+.details-action ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.details-action {
+  margin-right: 5rem;
+  margin-left: 5px;
+  border: 0.1rem #f0f0f0 solid;
+  border-radius: 0.3rem;
+  background-color: #f0f0f0;
+  padding: 2rem;
+}
+
+.details-info li,
+.details-action li {
+  margin-bottom: 0;
+}
+
+.details-action ul li:last-child {
+  display: flex;
+}
+
+.details-action ul li:last-child button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  color: #111;
+  border-radius: 2px;
+}
+
+.button:hover {
+  border: 0.5rem #404040;
+}
+
+.option-array {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.availability {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+.av-status {
+  display: flex;
+  padding: 2px;
+}
+.select-option {
+  width: 50px;
+  margin-left: 5px;
+  border-radius: 3px;
+  color: gray;
+  border-color: gray;
+  cursor: pointer;
+}
+.select-option:hover {
+  width: 50px;
+  margin-left: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.option {
+  border: #404040 solid;
+  padding: 10px;
+}

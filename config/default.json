@@ -1,0 +1,7 @@
+{
+  "jwtPrivateKey": "",
+  "db": "mongodb+srv://bashirudb:..ribose..@ecommercedb.5vhbz.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "port": "38000",
+  "requiresAuth": true,
+  "PAYPAL_CLIENT_ID": "Ae9C1RMOtlkmqw8ZYy_oh5XpG_rnxhHaUGBVwoORhhaGVOfVZIaw1hl9dIoIx58mdlNt4gheyegdHIYJ"
+}
