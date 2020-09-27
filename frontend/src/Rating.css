@@ -1,0 +1,15 @@
+.rating span {
+  color: #ffb901;
+  font-size: 1.8rem;
+  margin: 0.1rem;
+}
+
+.rating span:last-child {
+  color: #444444;
+  font-size: 1.4rem;
+}
+
+a > .rating > div {
+  color: #0000ff;
+  text-decoration: none;
+}

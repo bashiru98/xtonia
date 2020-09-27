@@ -4,6 +4,7 @@ import "./CartDetails.css";
 import { removeFromCartAction } from "./actions/cartAction";
 import { useDispatch } from "react-redux";
 import { addToCart } from "./actions/cartAction";
+import Rating from "./Rating";
 function CartDetails({
   id,
   title,
@@ -33,11 +34,7 @@ function CartDetails({
           <strong>{price}</strong>
         </p>
         <div className="checkoutProduct-rating">
-          {Array(rating)
-            .fill()
-            .map((_, index) => (
-              <p key={index}>⭐</p>
-            ))}
+          <Rating value={numReviews} />
         </div>
         <div>
           Qty:

@@ -5,6 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { productForDetail } from "./actions/productAction";
 import { Link } from "react-router-dom";
 import Spinner from "./Spinner";
+import Rating from "./Rating";
 
 function ProductDetail(props) {
   const [qty, setQty] = useState(1);
@@ -45,11 +46,12 @@ function ProductDetail(props) {
                 <strong>{product.price}</strong>
               </p>
               <div className="product-detail-rating">
-                {Array(product.rating)
-                  .fill()
-                  .map((_, index) => (
-                    <p key={index}>⭐</p>
-                  ))}
+                <a className="rating-link" href="#reviews">
+                  <Rating
+                    value={product.rating}
+                    text={product.numReviews + " " + "Reviews"}
+                  />
+                </a>
               </div>
               <div>
                 Description:

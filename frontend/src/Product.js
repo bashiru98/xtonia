@@ -4,6 +4,7 @@ import { listProducts } from "./actions/productAction";
 import Spinner from "./Spinner";
 import { useSelector, useDispatch } from "react-redux";
 import "./Product.css";
+import Rating from "./Rating";
 // import data from "./data";
 
 const Product = ({ category }) => {
@@ -45,12 +46,10 @@ const Product = ({ category }) => {
                     <strong>${product.price}</strong>
                   </div>
                   <div className="product-rating">
-                    {Array(product.rating)
-                      .fill()
-                      .map((_, index) => (
-                        <p key={index}>⭐</p>
-                      ))}
-                    ({product.numReviews} reviews )
+                    <Rating
+                      value={product.rating}
+                      text={product.numReviews + " " + "Reviews"}
+                    />
                   </div>
                 </div>
               </li>

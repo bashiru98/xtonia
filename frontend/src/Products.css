@@ -7,6 +7,9 @@
   display: flex;
 }
 
+.rating-link {
+  text-decoration: none;
+}
 .product-detail-image {
   object-fit: contain;
   width: 180px;
