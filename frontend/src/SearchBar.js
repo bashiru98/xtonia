@@ -6,7 +6,7 @@ import "./Header.css";
 
 const SearchBar = (props) => {
   const [searchKeyword, setSearchKeyWord] = useState("");
-  const category = props.match.params.id ? props.match.params.id : "";
+  
   const dispatch = useDispatch();
 
   useEffect(() => {

@@ -1,5 +1,5 @@
 {
-  "jwtPrivateKey": "",
+  "jwtPrivateKey": "23434412412",
   "db": "mongodb+srv://bashirudb:..ribose..@ecommercedb.5vhbz.mongodb.net/<dbname>?retryWrites=true&w=majority",
   "port": "38000",
   "requiresAuth": true,
